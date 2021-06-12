@@ -1,5 +1,6 @@
 $colorfooter: #dcd0c0;
 $colortexto: #373737;
+$fullwidth: 100%;
 
 *   {padding: 0%;
     margin: 0%;
@@ -9,8 +10,8 @@ $colortexto: #373737;
 
 /* HEADER  */
 header {background-color: #f4f4f4;
-    height: 100px;
-    width: 100%;
+    height: 10px*10;
+    width: $fullwidth;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,7 +59,7 @@ ul li:hover {
 /* FOOTER */
 
 footer {height: 200px;
-    width: 100%;
+    width: $fullwidht;
     background-color: $colorfooter;
     display: flex;
     font-weight: bold;
@@ -67,6 +68,8 @@ footer {height: 200px;
     color: $colortexto;
     flex-direction: column;
     text-align: center;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
 
-.redes {display: flex;}
+    .redes {display: flex;}
+
+    }
