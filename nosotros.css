@@ -1,0 +1,113 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER  */
+header {
+  background-color: #f4f4f4;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 45;
+}
+
+.navbar_list--menu {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #c0b283;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+}
+
+ul li:hover {
+  background-color: #c0b283;
+  color: white;
+}
+
+/* MAIN */
+.banner {
+  height: 500px;
+  background-image: url(https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+  background-size: cover;
+}
+
+.nosotros {
+  height: 300px;
+  color: #373737;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f4f4f4), to(#f0f0f0));
+  background-image: linear-gradient(to left, #f4f4f4, #f0f0f0);
+}
+
+.nosotros h1 {
+  margin-top: 3%;
+  color: #c0b283;
+  font-weight: bold;
+}
+
+.nosotros h1 p {
+  margin: 3% 5% 3% 5%;
+}
+
+/* FOOTER */
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #dcd0c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #373737;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=nosotros.css.map */
